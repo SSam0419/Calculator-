@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Calculator</title>
-  </head>
-  <body>
-      <div id="display">
-        <p id="history"> 123</p>
-        <input  autofocus></input>
 
-      </div>
-      
-    <div id="main">
-      <div class="rows">
-        <button class="keys">+</button>
-        <button class="keys">-</button>
-        <button class="keys">X</button>
-        <button class="keys">/</button>
-      </div>
-      <div class="rows">
-        <button class="keys">7</button>
-        <button class="keys">8</button>
-        <button class="keys">9</button>
-        <button class="keys">DEL</button>
-      </div>
-      <div class="rows">
-        <button class="keys">4</button>
-        <button class="keys">5</button>
-        <button class="keys">6</button>
-        <button class="keys">AC</button>
-      </div>
-      <div class="rows">
-        <button class="keys">1</button>
-        <button class="keys">2</button>
-        <button class="keys">3</button>
-        <button class="keys">.</button>
-      </div>
-      <div class="rows">
-        <button class="keys ">0</button>
-        <button class="keys ">Ans</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="index.js" defer ></script>
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div id="display">
+
+    <p id="history"> 123</p>
+    <input  id="current" value="" autofocus> </input> 
+    
+  
+  </div>
+
+  <div id="main">
+    <div class="rows">
+      <button class="keys operation">+</button>
+      <button class="keys operation">-</button>
+      <button class="keys operation">X</button>
+      <button class="keys operation">/</button>
     </div>
-  </body>
+    <div class="rows">
+      <button class="keys number">7</button>
+      <button class="keys number">8</button>
+      <button class="keys number">9</button>
+      <button class="keys del">DEL</button>
+    </div>
+    <div class="rows">
+      <button class="keys number">4</button>
+      <button class="keys number">5</button>
+      <button class="keys number">6</button>
+      <button class="keys clear">AC</button>
+    </div>
+    <div class="rows">
+      <button class="keys number">1</button>
+      <button class="keys number">2</button>
+      <button class="keys number">3</button>
+      <button class="keys number">.</button>
+    </div>
+    <div class="rows">
+      <button class="keys number">0</button>
+      <button class="keys answer">Ans</button>
+    </div>
+  </div>
+</body>
+
 </html>
